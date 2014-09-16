@@ -318,13 +318,13 @@ hr {
   .tile.tile-6 .tile-inner {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+  .tile.tile-12 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; }
-  .tile.tile-16 .tile-inner {
+  .tile.tile-24 .tile-inner {
     color: #f9f6f2;
     background: #f59563; }
-  .tile.tile-32 .tile-inner {
+  .tile.tile-48 .tile-inner {
     color: #f9f6f2;
     background: #f67c5f; }
   .tile.tile-64 .tile-inner {
