@@ -353,7 +353,7 @@ hr {
       .tile.tile-384 .tile-inner {
         font-size: 25px; } }
   .tile.tile-super .tile-inner {
-    color: #f9fccc;
+    color: #cccccc;
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
