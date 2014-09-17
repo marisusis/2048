@@ -171,8 +171,6 @@ GameManager.prototype.move = function (direction) {
         } else {
           self.moveTile(tile, positions.farthest);
         }
-         if (merged.value === 4) self.over = true;
-        }
 
         if (!self.positionsEqual(cell, tile)) {
           moved = true; // The tile moved from its original cell!
@@ -184,7 +182,7 @@ GameManager.prototype.move = function (direction) {
   if (moved) {
     this.addRandomTile();
 
-    if (!this.movesAvailable()) {
+    if (!this.movesAvailable() || merged.value === 4) {
       this.over = true; // Game over!
     }
 
